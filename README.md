@@ -27,7 +27,7 @@ Step 9:Process Incrementally
 ![image](https://github.com/user-attachments/assets/53e5ebc8-6e3a-469c-8dd8-e415d503aab1)
 
 Step 10:Deploy Via CI/CD
-
+![image](https://github.com/user-attachments/assets/0aec910f-8677-413c-a6c7-f9694546430a)
 
 
 
