@@ -35,5 +35,34 @@ Here we can see the contents within the 06_load_files, which contains the ipynb 
 In this pipeline we do the same process as we did in the first pipeline, but we also take some weather data from the snowflake marketplace which is free to use.
 
 
+Lab 3
+
+In Lab 3, we explored on how to create native snowflake apps. Native apps help us to publish in marketplace and make it available for wider use.
+
+First, i have cloned the repository given in the labs to my local for the same.
+
+<img width="1356" alt="Screenshot 2025-02-20 at 11 20 50 PM" src="https://github.com/user-attachments/assets/6f342c14-1ae1-4f85-9583-26457068bac6" />
+
+Inside the Repository, the file structure is as follows.
+
+<img width="1443" alt="Screenshot 2025-02-20 at 11 23 38 PM" src="https://github.com/user-attachments/assets/babee145-1cd2-4d1e-8894-fc394c92fc8e" />
+
+The Prepare_data.sh is the script we run to create 3 tables and load data into. The queries for creating and loading the data is in the script file. In order for the consumer to access the data, we have to create it as a reference usage. This is taken care by setup-package-script.sql 
+
+We need to configure the connection to our snowflake instance. For that we need to install snowflake-cli and then run snow connection add. Once done, add the connection details.
+
+Then run the prepare_data.sh script and run the command snow app run. Once the application is created, ensure you give the permission to read the respective tables.
+
+Once done, the app looks like this 
+
+<img width="1366" alt="Screenshot 2025-02-20 at 11 38 31 PM" src="https://github.com/user-attachments/assets/8b2b44d6-8275-4b96-b2bb-d39ab3e78770" />
+
+
+
+
+
+
+
+
 
 
